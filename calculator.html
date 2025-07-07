@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <div class="calculator">
+    <h2>Calculator</h2>
+
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="number" id="num2" placeholder="Enter second number">
+
+    <div class="buttons">
+      <button onclick="calculate('+')">+</button>
+      <button onclick="calculate('-')">-</button>
+      <button onclick="calculate('*')">*</button>
+      <button onclick="calculate('/')">/</button>
+      <button onclick="calculate('%')">%</button>
+      <button onclick="calculate('**')">**</button>
+      <button onclick="calculate('sqr')">sqr</button>
+      <button onclick="calculate('log')">log</button>
+      <button onclick="calculate('exp')">exp</button>
+      <button onclick="calculate('sin')">sin</button>
+      <button onclick="calculate('cos')">cos</button>
+      <button onclick="calculate('tan')">tan</button>
+    </div>
+    
+    <h3>Result:<span id="result">X</span></h3>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+</html>
